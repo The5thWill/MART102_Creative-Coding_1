@@ -35,7 +35,7 @@ body {
 .hero {
     height: 100vh;
     min-height: 740px;
-    background-image: url("images/forest.jpg");
+    background-image: url("images/Forest.jpg");
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
