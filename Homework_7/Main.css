@@ -1,6 +1,6 @@
 body{
-    background-color: (rgb(132, 171, 150));
-    background-image: url('../forest.jpeg');
+    background-color: (rgb(132, 171, 150);
+    background-image: url('/forest.jpeg');
     background-blend-mode:luminosity;
 }
 .content{
