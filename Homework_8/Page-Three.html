@@ -1,0 +1,80 @@
+<html>
+<link rel="stylesheet" href="Main.css" text="text/css">
+    <title>Page 3</title>
+    <head>Contact Us</head>
+    <body>
+        <h1>Your information</h1>
+        <script>
+        function checkform()
+        {
+          var nameF;
+          name= document.getElementById(fName).value;
+          if(name == "")
+          {
+            window.alert("First Name Required");
+            document.getElementById(fName).style.backgroundColor = "red";
+            document.getElementById(fName).focus();
+          }
+          else
+          {
+            document.getElementById(fName).style.backgroundColor = "white";
+            document.getElementById(fName).focus();
+          }
+        }
+
+        var nameL;
+        name= document.getElementById(lName).value;
+        if(name == "")
+        {
+          window.alert("Last Name Required");
+          document.getElementById(lName).style.backgroundColor = "red";
+          document.getElementById(lName).focus();
+        }
+        else
+        {
+          document.getElementById(lName).style.backgroundColor = "white";
+        }
+
+
+      var Email;
+      name= document.getElementById(mail).value;
+      if(name == "")
+      {
+        window.alert("Email Required");
+        document.getElementById(mail).style.backgroundColor = "red";
+        document.getElementById(mail).focus();
+      }
+      else
+      {
+        document.getElementById(mail).style.backgroundColor = "white";
+      }
+
+      var Terms;
+      name= document.getElementById(yes_no).value;
+      if(name == "")
+      {
+        window.alert("Comformation Required");
+      }
+    }
+        </script>
+
+        <form action="">
+            <p>First Name: <input type="text" id="fName"></p>
+            <p>Last Name: <input type="text" id="lName"></p>
+            <p>Email Address: <input type="text" id="mail"></p>
+            <div id="wrapper">
+      <label for="yes_no_radio">Do you agree to the terms?</label>
+    <p>
+    <input type="radio" name="yes_no" id="yes_no" checked>Yes</input>
+    </p>
+    <p>
+    <input type="radio" name="yes_no" id="yes_no" checked>No</input>
+    </p>
+    </div>
+            <button id="btnSubmit">Submit My Info</button>
+        </form>
+
+        <p><a href="Page-One.html">Go to the Home Page</a></p>
+        <p><a href="Page-Two.html">Go to the Short Story</a></p>
+    </body>
+</html>
