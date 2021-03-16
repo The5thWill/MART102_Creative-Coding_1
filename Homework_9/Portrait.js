@@ -6,7 +6,8 @@ function setup()
 function draw()
 {
     background(120,45,78);
-
+    textSize(22);
+    text("Good morning!", 10,80);
 
     // head
     fill(255, 204, 0);
@@ -45,7 +46,6 @@ function draw()
 
     // left leg
     rect(200,335,10,50);
-
     // right leg
     rect(290,335,10,50);
 
