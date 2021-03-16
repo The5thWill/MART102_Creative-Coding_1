@@ -42,7 +42,8 @@ function draw()
 
     // hair
     ellipse(250, 100, 200, 80)
-
+    triangle(150, 100, 130, 266, 130, 130)
+    triangle(365, 120, 365, 266, 340, 90)
 
     fill(120);
     textSize(22);
