@@ -5,49 +5,44 @@ function setup()
 
 function draw()
 {
-    background(120,45,78);
+    background(67,79,100);
     textSize(22);
-    text("Good morning!", 10,80);
 
     // head
-    fill(255, 204, 0);
-    circle(250,100,175);
+    fill(235, 187, 175);
+    stroke(0)
+    circle(250,200,275);
 
     // eyes
     strokeWeight(10);
+    stroke(0)
     fill(0);
-    point(200,75);
-    point(285,75);
+    fill(10, 24, 120);
+    stroke(0)
+    rect(300,185,50,10);
+    stroke(0)
+    rect(150,185,50,10);
+
 
     // nose
-    point(245,90);
-
-    // mouth
-    ellipse(245, 135, 30, 45)
-
-    // hair
-    line(130,175,175,50);
-    line(325,50,360,175);
+    point(248,210);
 
     // body
-    fill(10, 24, 120);
-    rect(200,185,100,150);
+    fill(81, 34, 40);
+    stroke(0)
+    rect(145,315,200,250);
+    triangle(50, 440, 140, 320, 140, 440)
+    triangle(430, 440, 340, 320, 340, 440)
 
-    // decoration
-    fill(255);
-    triangle(220,320,250,220,280,320)
+    // mouth
+    fill(59,46,38)
+    stroke(59,46,38)
+    ellipse(250, 275, 220, 120)
 
-    // right arm
-    fill(10, 24, 120);
-    rect(300,195,50,10);
 
-    // left arm
-    rect(150,195,50,10);
+    // hair
+    ellipse(250, 100, 200, 80)
 
-    // left leg
-    rect(200,335,10,50);
-    // right leg
-    rect(290,335,10,50);
 
     fill(120);
     textSize(22);
