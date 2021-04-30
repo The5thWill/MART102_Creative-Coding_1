@@ -1,4 +1,13 @@
 function setup()
+function preload() {
+  img = loadImage("mountain_sun.jpg");
+function preload() {
+  img = loadImage("snow_lake.jpg");
+function preload() {
+  img = loadImage("sun_lake.jpg");
+function preload() {
+  img = loadImage("field.jpg");
+}
 {
   img.loadPixels(mountain_sun.jpg);
   for (x = 0; x < img.width; x = x + 5) {
