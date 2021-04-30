@@ -29,8 +29,8 @@
     </style>
     </head>
     <body>
-    <a href="Index.html" class="previous">&laquo; Previous</a>
-    <a href="Index3.html" class="next">Next &raquo;</a>
+    <a href="/Index.html" class="previous">&laquo; Previous</a>
+    <a href="/Index3.html" class="next">Next &raquo;</a>
 
     </body>
 </html>
