@@ -2,6 +2,7 @@ function setup()
 {createCanvas(1000, 1000);}
 function preload() {
   img = loadImage("/images/field.jpg");}
+  fuction draw()
   {
   img.loadPixels(field.jpg);
   for (x = 0; x < img.width; x = x + 5) {

@@ -3,6 +3,7 @@ function setup()
 function preload() {
   img = loadImage("/images/mountain_sun.jpg");
 }
+function draw()
 {
   img.loadPixels(mountain_sun.jpg);
   for (x = 0; x < img.width; x = x + 5) {
